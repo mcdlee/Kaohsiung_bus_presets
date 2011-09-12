@@ -6,13 +6,11 @@
 			<key key="highway" value="bus_stop" />
 			<key key="network" value="高雄市公車" />
 			<key key="operator" value="高雄市公車" />
-			<optional>
-				<text key="name" default="" delete_if_empty="true"/>
-				<text key="ref" default="" delete_if_empty="true" />
-				<combo key="shelter" text="Shelter" values="yes,no" default="" delete_if_empty="true" />
-                		<combo key="bench" text="Bench" values="yes,no" default="" delete_if_empty="true" />
-                		<combo key="tactile_paving" text="Tactile Paving" values="yes,no" default="" delete_if_empty="true" />
-			</optional>
+			<text key="name" default="" delete_if_empty="true"/>
+			<text key="ref" default="" delete_if_empty="true" />
+			<combo key="shelter" text="Shelter" values="yes,no" default="" delete_if_empty="true" />
+                	<combo key="bench" text="Bench" values="yes,no" default="" delete_if_empty="true" />
+                	<combo key="tactile_paving" text="Tactile Paving" values="yes,no" default="" delete_if_empty="true" />
 		</item>
 	</group>
 </presets>
